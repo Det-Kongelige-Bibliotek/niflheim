@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fits xmlns="http://hul.harvard.edu/ois/xml/ns/fits/fits_output" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hul.harvard.edu/ois/xml/ns/fits/fits_output http://hul.harvard.edu/ois/xml/xsd/fits/fits_output.xsd" version="1.0.4" timestamp="7/21/17 3:01 PM">
+  <identification>
+    <identity format="EP"UB" mimetype="application/epub+zip" toolname="FITS" toolversion="1.0.4">
+      <tool toolname="Droid" toolversion="6.1.5" />
+      <tool toolname="Exiftool" toolversion="10.00" />
+      <tool toolname="Tika" toolversion="1.10" />
+      <externalIdentifier toolname="Droid" toolversion="6.1.5" type="puid">fmt/483</externalIdentifier>
+    </identity>
+  </identification>
+  <fileinfo>
+    <filepath toolname="OIS File Information" toolversion="0.2" status="SINGLE_RESULT">/home/cjen/Tmp/EbookCorpus/OPF-corpus/lorem-ipsum.epub</filepath>
+    <filename toolname="OIS File Information" toolversion="0.2" status="SINGLE_RESULT">lorem-ipsum.epub</filename>
+    <size toolname="OIS File Information" toolversion="0.2" status="SINGLE_RESULT">133790</size>
+    <md5checksum toolname="OIS File Information" toolversion="0.2" status="SINGLE_RESULT">f94ecb44ce0cb921256aa437310b1a9f</md5checksum>
+    <fslastmodified toolname="OIS File Information" toolversion="0.2" status="SINGLE_RESULT">1500641900000</fslastmodified>
+  </fileinfo>
+  <filestatus />
+  <metadata>
+    <document>
+      <author toolname="Exiftool" toolversion="10.00">Unknown</author>
+      <identifier toolname="Exiftool" toolversion="10.00">88ba2501-0955-4640-b8a3-ab122ea85b88</identifier>
+      <language toolname="Exiftool" toolversion="10.00">en</language>
+    </document>
+  </metadata>
+  <statistics fitsExecutionTime="388">
+    <tool toolname="MediaInfo" toolversion="0.7.75" status="did not run" />
+    <tool toolname="OIS Audio Information" toolversion="0.1" status="did not run" />
+    <tool toolname="ADL Tool" toolversion="0.1" status="did not run" />
+    <tool toolname="VTT Tool" toolversion="0.1" status="did not run" />
+    <tool toolname="Droid" toolversion="6.1.5" executionTime="46" />
+    <tool toolname="Jhove" toolversion="1.11" status="did not run" />
+    <tool toolname="file utility" toolversion="5.25" status="did not run" />
+    <tool toolname="Exiftool" toolversion="10.00" executionTime="353" />
+    <tool toolname="NLNZ Metadata Extractor" toolversion="3.6GA" status="did not run" />
+    <tool toolname="OIS File Information" toolversion="0.2" executionTime="3" />
+    <tool toolname="OIS XML Metadata" toolversion="0.2" status="did not run" />
+    <tool toolname="ffident" toolversion="0.2" executionTime="38" />
+    <tool toolname="Tika" toolversion="1.10" executionTime="104" />
+  </statistics>
+</fits>
+

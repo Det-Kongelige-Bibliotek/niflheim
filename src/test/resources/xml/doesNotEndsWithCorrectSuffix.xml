@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fits xmlns="http://hul.harvard.edu/ois/xml/ns/fits/fits_output" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hul.harvard.edu/ois/xml/ns/fits/fits_output http://hul.harvard.edu/ois/xml/xsd/fits/fits_output.xsd" version="1.0.4" timestamp="7/21/17 3:01 PM">
+  <identification>
+    <identity format="Portable Document Format" mimetype="application/pdf" toolname="FITS" toolversion="1.0.4">
+      <tool toolname="Droid" toolversion="6.1.5" />
+      <tool toolname="Jhove" toolversion="1.11" />
+      <tool toolname="file utility" toolversion="5.25" />
+      <tool toolname="Exiftool" toolversion="10.00" />
+      <tool toolname="NLNZ Metadata Extractor" toolversion="3.6GA" />
+      <tool toolname="ffident" toolversion="0.2" />
+      <tool toolname="Tika" toolversion="1.10" />
+      <version toolname="Droid" toolversion="6.1.5">1.3</version>
+      <externalIdentifier toolname="Droid" toolversion="6.1.5" type="puid">fmt/17</externalIdentifier>
+    </identity>
+  </identification>
+  <fileinfo>
+    <size toolname="Jhove" toolversion="1.11">43433</size>
+    <creatingApplicationName toolname="Jhove" toolversion="1.11">PoDoFo - http://podofo.sf.net/calibre 0.9.0 [http://calibre-ebook.com]</creatingApplicationName>
+    <created toolname="Exiftool" toolversion="10.00" status="SINGLE_RESULT">2012:09:28 23:22:22+01:00</created>
+    <filepath toolname="OIS File Information" toolversion="0.2" status="SINGLE_RESULT">/home/cjen/Tmp/EbookCorpus/OPF-corpus/lorem-ipsum.pdf</filepath>
+    <filename toolname="OIS File Information" toolversion="0.2" status="SINGLE_RESULT">lorem-ipsum.pdf</filename>
+    <md5checksum toolname="OIS File Information" toolversion="0.2" status="SINGLE_RESULT">69a0d721a374d208564b1890f0d7d486</md5checksum>
+    <fslastmodified toolname="OIS File Information" toolversion="0.2" status="SINGLE_RESULT">1500641808000</fslastmodified>
+  </fileinfo>
+  <filestatus>
+    <well-formed toolname="Jhove" toolversion="1.11" status="SINGLE_RESULT">true</well-formed>
+    <valid toolname="Jhove" toolversion="1.11" status="SINGLE_RESULT">true</valid>
+  </filestatus>
+  <metadata>
+    <document>
+      <title toolname="Jhove" toolversion="1.11" />
+      <author toolname="Jhove" toolversion="1.11" status="CONFLICT">Unknown</author>
+      <author toolname="Exiftool" toolversion="10.00" status="CONFLICT">calibre 0.9.0 [http://calibre-ebook.com]</author>
+      <pageCount toolname="Jhove" toolversion="1.11">3</pageCount>
+      <isTagged toolname="NLNZ Metadata Extractor" toolversion="3.6GA" status="SINGLE_RESULT">no</isTagged>
+      <hasOutline toolname="Jhove" toolversion="1.11" status="CONFLICT">no</hasOutline>
+      <hasOutline toolname="NLNZ Metadata Extractor" toolversion="3.6GA" status="CONFLICT">yes</hasOutline>
+      <hasAnnotations toolname="Jhove" toolversion="1.11" status="SINGLE_RESULT">no</hasAnnotations>
+      <font toolname="Jhove" toolversion="1.11" status="SINGLE_RESULT">
+        <fontName>TimesNewRomanPSMT</fontName>
+      </font>
+      <hasForms toolname="NLNZ Metadata Extractor" toolversion="3.6GA" status="SINGLE_RESULT">no</hasForms>
+    </document>
+  </metadata>
+  <statistics fitsExecutionTime="1878">
+    <tool toolname="MediaInfo" toolversion="0.7.75" status="did not run" />
+    <tool toolname="OIS Audio Information" toolversion="0.1" status="did not run" />
+    <tool toolname="ADL Tool" toolversion="0.1" status="did not run" />
+    <tool toolname="VTT Tool" toolversion="0.1" status="did not run" />
+    <tool toolname="Droid" toolversion="6.1.5" executionTime="289" />
+    <tool toolname="Jhove" toolversion="1.11" executionTime="1377" />
+    <tool toolname="file utility" toolversion="5.25" executionTime="1263" />
+    <tool toolname="Exiftool" toolversion="10.00" executionTime="1228" />
+    <tool toolname="NLNZ Metadata Extractor" toolversion="3.6GA" executionTime="1119" />
+    <tool toolname="OIS File Information" toolversion="0.2" executionTime="284" />
+    <tool toolname="OIS XML Metadata" toolversion="0.2" status="did not run" />
+    <tool toolname="ffident" toolversion="0.2" executionTime="1121" />
+    <tool toolname="Tika" toolversion="1.10" executionTime="1758" />
+  </statistics>
+</fits>
+

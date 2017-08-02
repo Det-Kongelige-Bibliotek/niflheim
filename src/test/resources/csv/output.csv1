@@ -1,0 +1,5 @@
+"filename","format","version","mimetype","externalIdentifier","well-formed","valid","title","author","isRightsManaged","isProtected","subject","pageCount"
+"lorem-ipsum.pdf","Portable Document Format","1.3","application/pdf","fmt/17","true","true","","Unknown","","","","3"
+,,,,,,,,,,,,
+"TestingDRMPassword256bit.pdf","Portable Document Format","1.7","application/pdf","fmt/276","false","false","","","","yes","",""
+"lorem-ipsum.epub","EPUB","","application/epub+zip","fmt/483","","","","Unknown","","","",""
