@@ -1,6 +1,3 @@
-/**
- * 
- */
 package dk.kb.niflheim;
 
 import java.io.FileOutputStream;
@@ -25,11 +22,7 @@ import com.opencsv.CSVWriter;
  */
 public class BuildCSV {
     /** The logger.*/
-    private static final Logger log = 
-            LoggerFactory.getLogger(BuildCSV.class);
-
-    /** CSV row entries of output file.*/
-    private static String[] entries;
+    private static final Logger log = LoggerFactory.getLogger(BuildCSV.class);
 
     /** CSV writer.*/
     private final CSVWriter writer;
@@ -108,6 +101,9 @@ public class BuildCSV {
             @Override
             public FileVisitResult visitFile(final Path file,
                     final BasicFileAttributes attrs) throws IOException {
+                /** CSV row entries of output file.*/
+                final String[] entries;
+                
                 if (file.toString().endsWith(suffix)) {
                     log.debug("Processing file: " + file);
                     entries = xmlCSV.xmltoCSV(file);

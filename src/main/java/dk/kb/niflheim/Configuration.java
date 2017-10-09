@@ -14,11 +14,9 @@ import com.opencsv.CSVReader;
 /**
  * Configuration for Niflheim.
  */
-
 public class Configuration {
     /** The logger.*/
-    private static final Logger log = 
-            LoggerFactory.getLogger(Configuration.class);
+    private static final Logger log = LoggerFactory.getLogger(Configuration.class);
 
     /** The array index of the first element in a row (the name of a node) of the CSV configuration file.*/
     private final int nodeIndex = 0;

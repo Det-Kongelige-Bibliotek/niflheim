@@ -10,7 +10,6 @@ import org.slf4j.LoggerFactory;
  * The main class of Niflheim.
  * Given a directory, that and it's sub-directories are traversed and
  * the files within are processed, if they have a given suffix.
-
  */
 public class Niflheim {
     /** The logger.*/

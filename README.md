@@ -1,15 +1,15 @@
 
 # Niflheim
-Traverse a given folder and its subfolders searching for XML files with a given suffix. 
+Traverses a given folder and its subfolders searching for XML files with a given suffix. 
 Based on a configuration giving specifying XML attributes and values Niflheim will extract these 
 and insert them as values in rows into a CSV formatted spreadsheet. 
 
-The configuration is given in a CSV file where the first colon refers to the XML element and 
+The configuration is given in a CSV file where the first column refers to the XML element and 
 the second a possible related attribute.
-If the second colon has a value this value is used as the colon name in the spreadsheet and 
-if it does not, the value of the first colon is used as colon name in the resulting spreadsheet.
+If the second column has a value this value is used as the column name in the spreadsheet and 
+if it does not, the value of the first column is used as column name in the resulting spreadsheet.
 
-The main purpose of this program was to extract data from FITS XML files and 
+The main purpose of this program is to extract data from FITS XML files and 
 generate a CSV file based on that data. This process is also, what is being tested in the unit tests.
 If the processing of a XML file fails an empty row is inserted in the CSV spreadsheet.
 
