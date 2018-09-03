@@ -44,11 +44,13 @@ Note: the logs are written to logs/niflheim.log
 
 Running niflheim on Linux
 ----------------------------------------------------------
-Open a terminal and run the command
+Open a terminal and run the command:
+
 bash bin/niflheim.sh 'conf_path' 'start_dir_path' 'output_csv_file_path' 'suffix'
 
 
 Running niflheim on Windows
 ----------------------------------------------------------
-Open the command terminal cmd and run the command
+Open the command terminal cmd and run the command:
+
 "bin/niflheim.cmd" "conf_path" "start_dir_path" "output_csv_file_path" "suffix"
