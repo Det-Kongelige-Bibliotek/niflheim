@@ -34,12 +34,21 @@ $ unzip niflheim-$VERSION.zip
 $ cd niflheim-$VERSION
 
 
-Running niflheim on Linux
+Running niflheim
 ----------------------------------------------------------
 You need four arguments: the path to the configuration file, the path to the starting directory, 
 the path to the output file, and the suffix for the files to be processed.
 
-bash bin/niflheim.sh 'conf_path' 'start_dir_path' 'output_csv_file_path' 'suffix'
-
 Note: the logs are written to logs/niflheim.log 
 
+
+Running niflheim on Linux
+----------------------------------------------------------
+Open a terminal and run the command
+bash bin/niflheim.sh 'conf_path' 'start_dir_path' 'output_csv_file_path' 'suffix'
+
+
+Running niflheim on Windows
+----------------------------------------------------------
+Open the command terminal cmd and run the command
+"bin/niflheim.cmd" "conf_path" "start_dir_path" "output_csv_file_path" "suffix"
